@@ -18,6 +18,7 @@ resource "aws_security_group" "allow_tls" {
     cidr_blocks      = [aws_vpc.my_vpc.cidr_block]
     ipv6_cidr_blocks = [aws_vpc.my_vpc.ipv6_cidr_block]
   }
+}
 
 resource "tls_private_key" "this" {
   algorithm     = "RSA"
