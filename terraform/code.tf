@@ -1,5 +1,5 @@
 resource "aws_vpc" "my_vpc" {
-  cidr_block = "0.0.0.0/0"
+  #cidr_block = "0.0.0.0/0"
   tags = {
     Name = "Default VPC"
   }
