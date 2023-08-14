@@ -1,8 +1,7 @@
 resource "aws_vpc" "my_vpc" {
   cidr_block = "0.0.0.0/0"
-
   tags = {
-    Name = "tf-example"
+    Name = "Default VPC"
   }
 }
 
